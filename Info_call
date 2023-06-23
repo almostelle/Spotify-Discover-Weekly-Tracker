@@ -1,0 +1,1 @@
+=IF(Reference!$B2 = CONCATENATE(VLOOKUP(AM$1,Dates!$A$1:$B$52, 2, false), "T04:00:00Z"),QUERY(Reference!$F2), "coming soon")
