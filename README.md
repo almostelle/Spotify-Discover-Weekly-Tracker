@@ -1,6 +1,6 @@
 # Spotify-Discover-Weekly-Tracker
-Tracks user's Spotify Discover Weekly by importing data into Google Sheets every week
-
+Tracks user's Spotify Discover Weekly by importing data into Google Sheets every week <p>
+[presentation](https://github.com/almostelle/Spotify-Discover-Weekly-Tracker/blob/b9cf8fd73813726f11ad4ef8e29f7fe566293ad1/13%20Weeks%20of%20%20Spotify%20Discover%20Weeklys.pdf) </p>
 ### Why I chose to track and rate my Discover Weekly Songs
 In 2021 and 2022, I found that I was consistently dissapointed in Spotify's reccomendation of 30 songs in my Discover Weekly playlist. I decided to evaluate all of the weekly playlists to see if a pattern would appear pertaining to what genres Spotify would reccomend and the ratio of like to disliked songs.
 The goal was that by the end of the year, I would like about 30% of the songs in each Discover Weekly playlist
@@ -35,4 +35,5 @@ In the next trial (quarter of the year) I will:
 * try to automate the copying of text through the spreadsheet
 * Activiely LIKE (press the like button) and DISLIKE (press the dislike button) in Spotify to help the algorithm learn about my personal listening habits.
 
-### Feel free to try this method yourself with my premade tables
+### [Feel free to try this method yourself with my premade tables](https://docs.google.com/spreadsheets/d/1DKOiEoxP1mnbhCGh99Hg7Pj68CPWGca5LtmEo1YOz1s/edit?usp=sharing)
+[Steps for replication](https://github.com/almostelle/Spotify-Discover-Weekly-Tracker/blob/b9cf8fd73813726f11ad4ef8e29f7fe566293ad1/Replicate%20Spreadsheet)
