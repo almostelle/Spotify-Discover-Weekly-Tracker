@@ -1,0 +1,16 @@
+// To call the reference cell for the artist name: looks up certain week in dates table, concatenates the given date with specific reference table ID, then matches with cell in reference table.
+// If true, returns the artist name. For dates that have not passed, the cell will display "coming soon"
+=IF(Reference!$B2 = CONCATENATE(VLOOKUP(AM$1,Dates!$A$1:$B$52, 2, false), "T04:00:00Z"),QUERY(Reference!$C2), "coming soon")
+
+// To call the reference cell for the track name: looks up certain week in dates table, concatenates the given date with specific reference table ID, then matches with cell in reference table.
+// If true, returns the track name
+=IF(Reference!$B2 = CONCATENATE(VLOOKUP(AM$1,Dates!$A$1:$B$52, 2, false), "T04:00:00Z"),QUERY(Reference!$F2), "coming soon")
+
+// Percentage Calculations
+=COUNTIF(D2:D32,"Neutral")+COUNTIF(D2:D32,"") // In D33; Counts blanks as "Neutral" as well
+=COUNTIF(D2:D32,"Liked")
+=COUNTIF(D2:D32,"Disliked")
+=COUNTIF(D2:D32,"Skipped")
+=COUNTIF(D2:D32,"Added")
+
+=PERCENTILE(D33/30,0) // According to the cell 
